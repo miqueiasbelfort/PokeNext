@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2em;
-    background-color: #333;
-    color: #fff;
+    box-shadow: 3px 3px 6px 0 #ccc;
+    color: #333;
 }
 .logo {
     display: flex;
@@ -21,12 +21,12 @@
     gap: 1.3em;
 }
 .link_items li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     padding: 5px;
     transition: .4s;
     border-bottom: 2px solid transparent;
 }
 .link_items li a:hover{
-    border-color: #fff;
+    border-color: #333;
 }
